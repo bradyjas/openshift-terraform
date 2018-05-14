@@ -3,5 +3,8 @@
 *.tfstate.*.backup
 *.tfstate.backup
 
+# Private values
+*.tfvars
+
 # Module directory
 .terraform/
