@@ -1,7 +1,8 @@
 #### EC2 Instances ####
 
-# Key Pair
+# TODO: User Data for Bastion instance
 
+# Key Pair
 resource "aws_key_pair" "openshift" {
   key_name   = "${var.key_name}"
   public_key = "${file(var.key_path)}"
